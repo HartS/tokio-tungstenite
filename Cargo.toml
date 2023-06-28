@@ -31,6 +31,7 @@ stream = []
 log = "0.4.17"
 futures-util = { version = "0.3.28", default-features = false, features = ["sink", "std"] }
 tokio = { version = "1.0.0", default-features = false, features = ["io-util"] }
+async-socks5 = { version = "0.5.1" }
 
 [dependencies.tungstenite]
 version = "0.19.0"
